@@ -1,0 +1,12 @@
+# ==============================================================================
+# Append this to ~/.ssh/config (C:\Users\<YourUser>\.ssh\config)
+# ==============================================================================
+
+# Universal keepalive & reliability defaults for all remote sessions & proxy jumps
+Host *
+  ServerAliveInterval 30
+  ServerAliveCountMax 5
+  TCPKeepAlive yes
+  IPQoS lowdelay throughput
+  AddKeysToAgent yes
+  IdentitiesOnly no

@@ -1,0 +1,8 @@
+{
+  "// Instructions": "Merge these key-value pairs into your VS Code / Antigravity User settings.json (%APPDATA%\\Code\\User\\settings.json)",
+  "remote.SSH.connectTimeout": 60,
+  "remote.SSH.enableAgentForwarding": true,
+  "remote.SSH.lockfilesInTmp": true,
+  "remote.SSH.suppressPromptOnConnectionBreak": true,
+  "remote.autoForwardPorts": true
+}

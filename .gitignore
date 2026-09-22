@@ -1,0 +1,29 @@
+# ==============================================================================
+# Git Ignore - Prevent Accidental Exposure of Keys, Backups, and Secrets
+# ==============================================================================
+
+# Private & Public SSH Keys
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+
+# Backup and log files
+*.bak
+*.tmp
+*.log
+
+# Windows / OS artifacts
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE and local editor state
+.vscode/
+.idea/
+*.local
